@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advising Appt Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2> Registration Form</h2>
+
+    <div class="main">
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                    <div class="contact">
+
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" required placeholder="First Name">
+
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="fname" required placeholder="Last Name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" required placeholder="First_Last@gmail.com">
+
+
+                    </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Reservation Request</legend>
+                    <div class="reserve">
+
+                        <label for="instructor">Instructor</label>
+                        <select name="instructor" required>
+
+                            <option>Kirsten Markley</option>
+                            <option>Tiffany Ford</option>
+                            <option>Jackson Lewis</option>
+                        </select>
+
+                        <label for="month">Month</label>
+                        <select name="month" required>
+
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+
+                        <label for="day">Day</label>
+                        <input type="number" name="day" min="0" max="31" value="1">
+
+
+                        <label for="hours">Time:</label>
+                        
+                        <label for="am">AM</label>
+                        <input type="radio" id="am" name="hours" value="am">
+
+                        <label for="pm">PM</label>
+                        <input type="radio" id="pm" name="hours" value="pm">
+
+                    </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Classes you want to take next semester</legend>
+                <div class="classes">
+
+                        <label for="java">Java</label>
+                        <input type="radio" name="java" value="java">
+
+                        <label for="c#">C#</label>
+                        <input type="radio" name="c#" value="c#">
+
+                        <label for="web">Web Dev</label>
+                        <input type="radio" name="web" value="web">
+
+                        <label for="database">Database</label>
+                        <input type="radio" name="database" value="database">
+
+                        <label for="system">System Analysis & Design</label>
+                        <input type="radio" name="system" value="system">
+
+                </div>
+            </fieldset>
+           
+           <fieldset>
+            <legend>Additional Info</legend>
+            <div class="additional">
+
+                <textarea name="extra" id="extra" cols="30" rows="10" placeholder="Any Additional Info"></textarea>
+            </div>
+        </fieldset>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+    
+</body>
+</html>
