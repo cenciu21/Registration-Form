@@ -60,16 +60,16 @@
                         </select>
 
                         <label for="day">Day</label>
-                        <input type="number" name="day" min="0" max="31" value="1">
+                        <input type="number" name="day" min="0" max="31" value="1" required>
 
 
                         <label for="hours">Time:</label>
                         
                         <label for="am">AM</label>
-                        <input type="radio" id="am" name="hours" value="am">
+                        <input type="radio" id="am" name="hours" value="am" required>
 
                         <label for="pm">PM</label>
-                        <input type="radio" id="pm" name="hours" value="pm">
+                        <input type="radio" id="pm" name="hours" value="pm" required>
 
                     </div>
             </fieldset>
@@ -97,15 +97,19 @@
                 </div>
             </fieldset>
            
-           <fieldset>
+           <fieldset class="last">
             <legend>Additional Info</legend>
             <div class="additional">
 
                 <textarea name="extra" id="extra" cols="30" rows="10" placeholder="Any Additional Info"></textarea>
             </div>
+
+        
         </fieldset>
 
-            <input type="submit" value="Submit">
+        <br>
+
+            <input type="submit" value="Submit" class="button">
 
         </form>
 

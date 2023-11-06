@@ -14,3 +14,24 @@ h2{text-align: center;}
     padding: 15px;
     border-radius: 5px;
 }
+
+div{
+    padding: 5px;
+}
+
+.button{
+    width: 100%;
+border-radius: 25px;
+font-size: xx-large;
+background: linear-gradient(to left, red, aquamarine);
+
+/* I used W3 schools to learn how to do the gradient thing because I thought it would look nice with my page background, Heres the link to where I learned it 
+
+
+https://www.w3schools.com/cssref/func_linear-gradient.php#:~:text=The%20linear%2Dgradient()%20function,along%20with%20the%20gradient%20effect.
+
+I just don't want to be counted off for trying new things in my assignments to make them look less bad lol
+
+*/
+
+}
